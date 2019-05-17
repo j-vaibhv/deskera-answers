@@ -1,0 +1,1 @@
+select e.Department,sum(e.Salary) as sal from test.Employee e group by e.Department order by sal desc
