@@ -1,0 +1,1 @@
+select e.First_name,sum(e.Salary) as sal from test.Employee e group by e.First_name order by sal desc limit 1 offset 1
