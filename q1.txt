@@ -1,1 +1,0 @@
-select e.First_name,COALESCE(i.Incentive_amount, 0) from test.Employee e left join test.Incentives i on e.Employee_id = i.Employee_ref_id
